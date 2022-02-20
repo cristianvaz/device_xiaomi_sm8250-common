@@ -19,4 +19,7 @@
         <!-- Allow more cached apps in the background -->
         <item>activity_manager/max_cached_processes=64</item>
     </string-array>
+
+    <!-- Whether to show Google account avatar in settings -->
+    <bool name="config_show_google_account_avatar">true</bool>
 </resources>
