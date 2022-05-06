@@ -86,6 +86,8 @@ private:
     sp<IBiometricsFingerprintClientCallback> mClientCallback;
     xiaomi_fingerprint_device_t *mDevice;
     bool mFod;
+    Return<void> onShowUdfpsOverlay() override;
+    Return<void> onHideUdfpsOverlay() override;
 };
 
 }  // namespace implementation
